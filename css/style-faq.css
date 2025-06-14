@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap');
+
+.faq_3 * {
+    font-family: Nunito, sans-serif;
+}
+
+.faq_3 .container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    display: block;
+    padding: 10px 60px;
+}
+
+.faq_3 .text-blk {
+    margin: 0;
+    line-height: 25px;
+}
+
+.faq_3 .responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: flex-start;
+}
+
+.faq_3 .answer-box {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.faq_3 .faq.active .openimg {
+    transform: rotate(180deg);
+}
+
+.faq_3 .openimg {
+    transition: transform 0.3s ease-in;
+}
+
+.faq_3 .faq.active .answer-box {
+    max-height: 550px;
+}
+
+.faq_3 input:focus {
+    outline: none;
+}
+
+.faq_3 .responsive-container-block.container {
+    padding: 0;
+}
+
+.faq_3 .responsive-container-block.faqheading-bg {
+    background-color: #03a9f4;
+    height: 500px;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+.faq_3 .text-blk.faq-heading {
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 800;
+    margin-bottom: 28px;
+}
+
+.faq_3 .text-blk.faq-subhead {
+    max-width: 650px;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 28px;
+}
+
+.faq_3 .input {
+    border: none;
+    height: 45px;
+    width: 100%;
+    font-size: 15px;
+    padding: 1px 24px;
+}
+
+.faq_3 .input-box {
+    background-color: white;
+    max-width: 550px;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    border-radius: 4px;
+}
+
+.faq_3 .search-btn {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.faq_3 .heading-content {
+    margin-top: 100px;
+}
+
+.faq_3 .form-box {
+    display: flex;
+    justify-content: center;
+}
+
+.faq_3 .responsive-container-block.dropdown-container {
+    background-color: white;
+    max-width: 850px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0 4px 20px 7px;
+    margin: -120px auto 100px;
+}
+
+.faq_3 .search-svg {
+    width: 20px;
+    height: 20px;
+}
+
+.faq_3 .responsive-container-block.dropdown-container-wrapper {
+    padding: 0 30px;
+}
+
+.faq_3 .text-blk.faq-head2 {
+    text-align: center;
+    font-size: 42px;
+    line-height: 60px;
+    font-weight: 900;
+    margin: 60px 0 50px;
+    padding: 0 20px;
+}
+
+.faq_3 .faq {
+    border-bottom: 1px solid #aaaaaa;
+    margin-bottom: 25px;
+}
+
+.faq_3 .faq-question-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.faq_3 .text-blk.faq-questions {
+    color: #525252;
+    font-size: 22px;
+}
+
+.faq_3 .text-blk.faq-answer {
+    padding-left: 20px;
+    color: #9c9c9c;
+    font-size: 19px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+@media (max-width: 1024px) {
+    .faq_3 .text-blk.faq-answer {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .faq_3 .responsive-container-block.faqheading-bg {
+        padding: 0 30px;
+    }
+
+    .faq_3 .text-blk.faq-heading {
+        font-size: 40px;
+        line-height: 42px;
+        margin-bottom: 24px;
+    }
+
+    .faq_3 .text-blk.faq-subhead {
+        margin-bottom: 24px;
+    }
+
+    .faq_3 .text-blk.faq-head2 {
+        font-size: 38px;
+    }
+
+    .faq_3 .text-blk.faq-questions {
+        font-size: 20px;
+    }
+
+    .faq_3 .text-blk.faq-answer {
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+
+@media (max-width: 500px) {
+    .faq_3 .responsive-container-block.dropdown-container-wrapper {
+        padding: 0 20px;
+    }
+
+    .faq_3 .text-blk.faq-heading {
+        font-size: 38px;
+    }
+
+    .faq_3 .heading-content {
+        margin-top: 60px;
+    }
+
+    .faq_3 .text-blk.faq-head2 {
+        font-size: 30px;
+        line-height: 46px;
+        margin: 30px 0 40px;
+    }
+
+    .faq_3 .container-block {
+        padding: 10px 15px;
+    }
+
+    .faq_3 .faq-question-container {
+        margin-bottom: 15px;
+    }
+
+    .faq_3 .text-blk.faq-questions {
+        font-size: 19px;
+    }
+
+    .faq_3 .text-blk.faq-answer {
+        font-size: 16px;
+        line-height: 22px;
+        padding-left: 0;
+    }
+
+    .faq_3 .responsive-container-block.dropdown-container {
+        margin: -100px 0 100px;
+    }
+}
+
+
+
+
+
+.heading-image img {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%; /* กำหนดความสูงคงที่ */
+    object-fit: cover; /* ครอบเต็มพื้นที่โดยคงสัดส่วน */
+    object-position: center center; /* จัดตำแหน่งรูปภาพตรงกลาง */
+    border: 1px solid red;
+}

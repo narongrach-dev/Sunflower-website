@@ -1,0 +1,2318 @@
+/* font-default */
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oregano:ital@0;1&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Reenie+Beanie&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap&family=Nothing+You+Could+Do&display=swap&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.playfair-display-regular {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.playfair-display-regular-italic {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.playfair-display-medium {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.playfair-display-medium-italic {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.playfair-display-semibold {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.playfair-display-semibold-italic {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+.playfair-display-bold {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.playfair-display-bold-italic {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.playfair-display-extrabold {
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.playfair-display-extrabold-italic {
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    font-style: italic;
+}
+.playfair-display-black {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.playfair-display-black-italic {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-style: italic;
+}
+.montserrat-light {
+    font-family: "Montserrat", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.montserrat-light-italic {
+    font-family: "Montserrat", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.montserrat-regular {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat-regular-italic {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.montserrat-medium {
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.montserrat-medium-italic {
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.montserrat-semibold {
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.montserrat-semibold-italic {
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+.montserrat-bold {
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.montserrat-bold-italic {
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.montserrat-extrabold {
+    font-family: "Montserrat", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.montserrat-extrabold-italic {
+    font-family: "Montserrat", serif;
+    font-weight: 800;
+    font-style: italic;
+}
+.montserrat-black {
+    font-family: "Montserrat", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.montserrat-black-italic {
+    font-family: "Montserrat", serif;
+    font-weight: 900;
+    font-style: italic;
+}
+.playfair-display-sc-regular {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.playfair-display-sc-bold {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.playfair-display-sc-black {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+  
+.playfair-display-sc-regular-italic {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.playfair-display-sc-bold-italic {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+  
+.playfair-display-sc-black-italic {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 900;
+    font-style: italic;
+}
+  
+.oregano-regular {
+    font-family: "Oregano", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.oregano-regular-italic {
+    font-family: "Oregano", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.birthstone-regular {
+    font-family: "Birthstone", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.reenie-beanie-regular {
+    font-family: "Reenie Beanie", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Light */
+.shantell-sans-light {
+    font-family: "Shantell Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "BNCE" 5,
+        "INFM" 0,
+        "SPAC" 2;
+}
+.shantell-sans-light-italic {
+    font-family: "Shantell Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+    font-variation-settings:
+        "BNCE" 5,
+        "INFM" 3,
+        "SPAC" 2;
+}
+
+/* Regular */
+.shantell-sans-regular {
+    font-family: "Shantell Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "BNCE" 10,
+        "INFM" 0,
+        "SPAC" 3;
+}
+.shantell-sans-regular-italic {
+    font-family: "Shantell Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-variation-settings:
+        "BNCE" 10,
+        "INFM" 4,
+        "SPAC" 3;
+}
+
+/* Medium */
+.shantell-sans-medium {
+    font-family: "Shantell Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "BNCE" 15,
+        "INFM" 0,
+        "SPAC" 4;
+}
+.shantell-sans-medium-italic {
+    font-family: "Shantell Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+    font-variation-settings:
+        "BNCE" 15,
+        "INFM" 5,
+        "SPAC" 4;
+}
+
+/* SemiBold */
+.shantell-sans-semibold {
+    font-family: "Shantell Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "BNCE" 20,
+        "INFM" 0,
+        "SPAC" 5;
+}
+.shantell-sans-semibold-italic {
+    font-family: "Shantell Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+    font-variation-settings:
+        "BNCE" 20,
+        "INFM" 6,
+        "SPAC" 5;
+}
+
+/* Bold */
+.shantell-sans-bold {
+    font-family: "Shantell Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "BNCE" 25,
+        "INFM" 0,
+        "SPAC" 6;
+}
+.shantell-sans-bold-italic {
+    font-family: "Shantell Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-variation-settings:
+        "BNCE" 25,
+        "INFM" 7,
+        "SPAC" 6;
+}
+
+/* ExtraBold */
+.shantell-sans-extrabold {
+    font-family: "Shantell Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "BNCE" 30,
+        "INFM" 0,
+        "SPAC" 7;
+}
+.shantell-sans-extrabold-italic {
+    font-family: "Shantell Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+    font-variation-settings:
+        "BNCE" 30,
+        "INFM" 8,
+        "SPAC" 7;
+}
+.nothing-you-could-do {
+    font-family: "Nothing You Could Do", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.satisfy-regular {
+    font-family: "Satisfy", serif;
+    font-weight: 400;
+    font-style: normal;
+  } 
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: clamp(20px, 4.5vw, 48px);
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: clamp(18px, 4vw, 40px);
+    line-height: 1.4;
+}
+
+h3 {
+    font-size: clamp(16px, 3.5vw, 32px);
+    line-height: 1.3;
+}
+
+h4 {
+    font-size: clamp(16px, 3.5vw, 28px);
+    line-height: 1.3;
+}
+
+h5 {
+    font-size: clamp(14px, 3vw, 24px);
+    line-height: 1.2;
+}
+
+h6 {
+    font-size: clamp(12px, 2.5vw, 20px);
+    line-height: 1.2;
+}
+
+p, span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; /* Light font */
+    font-size: clamp(14px, 1.2rem, 18px);
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+/* body-default */
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    color: #3a283c;
+    background: #f7f7f7; /* ตั้งค่าพื้นหลังเป็นสีขาว */
+    overflow-x: hidden; /* ป้องกันการเลื่อนแนวนอน */
+    min-height: 100vh; /* ทำให้ body กินพื้นที่เต็มจอเสมอ */
+    -webkit-font-smoothing: antialiased;
+}
+
+/* start-first-navbar */
+.first-navbar {
+    width: 100%;
+    background: #494e65;
+    padding: 10px 0;
+    margin: 0;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    z-index: 1001;
+}
+
+.first-navbar.hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu a {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 0;
+    margin: 0 0 0 5px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-menu i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 1.5;
+    color: white;
+    margin: 0;
+    padding: 0;
+    transition: color 0.3s ease-in-out;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300; /* Light font */
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu a:hover {
+    color: #e0b60c;
+}
+
+.nav-menu i:hover {
+    color: #e0b60c;
+}
+
+@media (max-width: 800px) {
+    p {
+        font-size: 12px !important;
+    }
+    .nav-menu i {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    p {
+        font-size: 10px !important;
+    }
+    .nav-menu i {
+        font-size: 10px !important;
+    }
+}
+/* end-first-navbar */
+
+/* start-second-navbar */
+.second-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 0 0 0;
+    margin: 0;
+    font-size: 13px;
+    position: fixed;
+    top: 37px;
+    z-index: 1000;
+    transition-property: top, background;
+    transition-duration: 0.3s, 0.3s;
+    transition-timing-function: ease-in-out, ease-in-out;
+}
+
+.second-navbar.sticky {
+    top: 0;
+    background-color: rgba(244, 245, 248, 0.9);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    color: #3a283c;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0;
+    padding: 15px 30px;
+}
+
+/* navbar-version1 */
+.navbar-version1 {
+    display: grid;
+    grid-template-columns: 1fr 250px 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo a h6 {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.logo a p {
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+.logo img {
+    width: 70px;
+    height: auto;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.menu-left, .menu-right {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px 15px;
+    margin: 0 30px;
+    color: #3a283c;
+    border-bottom: 1px solid #fff;
+}
+
+.menu-left a, .menu-right a {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu-left a:hover, .menu-right a:hover {
+    color: #e0b60c;
+    margin: 0;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid #e0b60c;
+}
+
+.second-navbar.sticky .menu-left,
+.second-navbar.sticky .menu-right {
+    border-bottom: 1px solid #3a283c;
+}
+
+.second-navbar.sticky .logo a,
+.second-navbar.sticky .menu-left a,
+.second-navbar.sticky .menu-right a {
+    color: #3a283c;
+}
+
+.second-navbar.sticky .menu-left a:hover,
+.second-navbar.sticky .menu-right a:hover {
+    color: #e0b60c;
+}
+/* end-navbar-version1 */
+
+/* start-navbar-version2 */
+.navbar-version2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 10px 0;
+    margin: 0;
+}
+
+.navbar-version2 ul {
+    display: flex;
+    flex-wrap: wrap;  /* ให้รายการเมนูขึ้นบรรทัดใหม่เมื่อพื้นที่ไม่พอ */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-version2 ul li {
+    padding: 0;
+    margin: 10px 10px 0 10px;
+}
+
+.navbar-version2 ul li a {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-version2 a:hover {
+    color: #e0b60c;
+}
+
+.navbar-version2 li:hover {
+    border-bottom: 1px solid #e0b60c;
+}
+/* end-navbar-version2 */
+
+/* start-nav-toggle */
+.nav-toggle {
+    display: none;
+}
+
+.navbar-version2 {
+    display: none;
+}
+
+.second-navbar.sticky .navbar-version2 a:hover {
+    color: #e0b60c;
+}
+
+.second-navbar.sticky .navbar-version2 li:hover {
+    border-bottom: 2px solid #fff;
+}
+/* end-toggle-button */
+
+@media (min-width: 800px) and (max-width: 900px) {
+    .navbar-version1 {
+        grid-template-columns: 1fr minmax(150px, 1fr) 1fr;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav-container2, .navbar-version1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-toggle, .second-navbar.sticky .nav-toggle {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        color: #fff;
+    }
+
+    .second-navbar.sticky .nav-toggle {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        color: #3a283c;
+    }
+
+    .logo {
+        margin: 10px 0;
+    }
+
+    .menu-left, .menu-right {
+        display: none;
+    }
+
+    .navbar-version2 {
+        display: none;
+    }
+
+    .navbar-version2.active {
+        display: flex;
+        flex-wrap: wrap;  /* ให้รายการเมนูขึ้นบรรทัดใหม่เมื่อพื้นที่ไม่พอ */
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        gap: 0;
+        text-align: center;
+        padding: 0 0 10px 0;
+        margin: 0;
+    }
+
+    .second-navbar.sticky .navbar-version2 ul li a {
+        color: #3a283c;
+    }
+
+    .second-navbar.sticky .navbar-version2 li:hover {
+        border-bottom: 1px solid #e0b60c;
+    }
+}
+/* end-second-navbar */
+
+/* ************** CONTENT ************** */
+.video-bandner-box1 {
+    display: flex; /* ใช้ Flexbox ในการจัดตำแหน่งองค์ประกอบ */
+    justify-content: center; /* จัดให้อยู่ตรงกลางตามแนวนอน */
+    align-items: center; /* จัดให้อยู่ตรงกลางตามแนวตั้ง */
+    width: 100%; /* ขยายให้เต็มความกว้างของหน้าจอ */
+    height: 700px;
+    background: none; /* ตั้งค่าสีพื้นหลังเป็นสีเทาเข้ม */
+    padding: 0;
+    margin: 0;
+}
+
+.video-bandner-box2 {
+    position: relative;
+    width: 100%; /* ทำให้ nav-container กว้างเต็มพื้นที่ */
+    height: 700px;
+    padding: 0;
+    margin: 0 auto; /* จัดให้อยู่กึ่งกลางของหน้าจอ */
+}
+
+.block-background {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+}
+
+.block-background-video {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}
+
+.block-background-overlay {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+/* Text Overlay */
+.text-overlay {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: 250px 0 0 0;
+    padding: 0;
+}
+
+.typing-text {
+    display: inline-block;
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid transparent;
+    width: 0; /* เริ่มต้นด้วยความกว้าง 0 */
+    padding: 0;
+    margin: 0;
+}
+
+.typewriter.animate {
+    animation: typing 2.5s steps(60, end) forwards;
+}
+
+.typing-text2 {
+    display: none; /* แก้ไขให้แสดงผลได้ถูกต้อง */
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@media (max-width: 768px) {
+    .typing-text {
+        display: none; /* ซ่อน .typewriter.animate เมื่อหน้าจอเล็ก */
+    }
+
+    .text-overlay {
+        margin: 300px 0 0 0;
+        padding: 0;
+    }
+
+    .typing-text2 {
+        display: inline-block; /* แสดง .typewriter.animate2 เมื่อหน้าจอเล็ก */
+        width: fit-content;
+        color: #fff;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .typewriter.animate2 {
+        animation: typing 1.5s steps(30, end) forwards;
+    }
+
+    .typewriter.animate3 {
+        animation: typing 1.5s steps(30, end) 1.5s forwards; /* เริ่มหลังจากบรรทัดแรกเสร็จ */
+    }
+}
+
+.text-overlay h4 {
+    padding: 30px 30px;
+}
+
+/* Book Now Button */
+.text-overlay a {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin: 15px 0;
+    padding: 10px 20px;
+    border-radius: 28px;
+    border: 1px solid #fff; /* ใช้เส้นขอบสีแดงเพื่อการออกแบบ */
+}
+
+.text-overlay a:hover {
+    padding: 10px 20px;
+    border-radius: 28px;
+    background-color: #6E6404;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/************************ #CONTENT ************************/
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
+    align-items: center; /* จัดให้อยู่กึ่งกลางแนวตั้ง */
+    width: 100%; /* ทำให้ nav-container กว้างเต็มพื้นที่ */
+    height: auto;
+    margin: 0 auto; /* จัดให้อยู่กึ่งกลางของหน้าจอ */
+    padding:0;
+    background: none;
+}
+
+.container1 {
+    max-width: 1200px; /* กำหนดความกว้างสูงสุด */
+    width: 100%; /* ให้ grid กว้างเต็มพื้นที่ */
+    margin: 30px;
+    background: none;
+}
+/************************ START CONTENT-HEADING ************************/
+.heading-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/sunflower-background-home.png');
+    background-size: cover; /* ปรับให้รูปครอบคลุมพื้นที่ทั้งหมด */
+    width: 100%;
+    background-position: center; /* จัดรูปให้อยู่ตรงกลาง */
+    background-repeat: no-repeat; /* ไม่ให้รูปซ้ำ */
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+/* เพิ่มเลเยอร์สีทับบาง ๆ เพื่อความชัดของข้อความ */
+.heading-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 15px;
+}
+
+.content-heading {
+    position: relative;
+    z-index: 2;
+}
+
+.content-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* จัดให้อยู่กึ่งกลางแนวตั้ง */
+    justify-content: center;
+    padding: 50px 0; 
+    margin: 0;
+    color: #333;
+    text-align: center;
+    background: none;
+}
+.content-heading-welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.content-heading-welcome h1 { 
+    display: flex;
+    padding: 0; 
+    margin: 0;
+    background: none;
+}
+
+.content-heading h4 { 
+    margin: 20px 0 0 0;
+    padding: 0;
+    background: none;
+}
+
+.heading-image {
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    max-height: 650px; /* กำหนดความสูงคงที่ */
+    height: auto;
+    aspect-ratio: 16 / 9; /* กำหนดอัตราส่วนภาพ (ปรับตามต้องการ) */
+    overflow: hidden; /* ป้องกันการล้นออกนอกขอบ */
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.heading-image img {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%; /* กำหนดความสูงคงที่ */
+    margin: 0;
+    padding: 0;
+    object-fit: cover; /* ครอบเต็มพื้นที่โดยคงสัดส่วน */
+    object-position: center center; /* จัดตำแหน่งรูปภาพตรงกลาง */
+}
+
+.heading-image-overlay {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(58, 40, 60, 0.2); /* Overlay โปร่งแสง */
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    pointer-events: none; /* ป้องกันการคลิกโดน overlay */
+}
+
+/* สำหรับจอขนาดเล็ก (Mobile) จะลดความสูงให้เล็กลง */
+@media (max-width: 480px) {
+    .heading-image {
+        height: 300px; /* ลดความสูงสำหรับมือถือ */
+    }
+}
+
+
+.content-heading-about-us {
+    margin: 0 0 10px 0;
+    padding: 0;
+    background: none;
+}
+
+.content-heading-description1 { 
+    margin: 20px 0 10px 0;
+    padding: 0;
+    background: none;
+}
+.content-heading-description2 { 
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+/************************ END CONTENT-HEADING ************************/
+/* start-bottom-line-animate */
+:root {
+    --secondary-color: #333;
+}
+
+.bottom-line-animate {
+    display: inline-block;
+    background: linear-gradient(to left, var(--secondary-color), var(--secondary-color));
+    background-size: 0 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size cubic-bezier(0.8, 0, 0.2, 1) 400ms;
+}
+
+.bottom-line-animate:hover {
+    background-size: 100% 1px;
+}
+/* end-bottom-line-animate */
+
+/************************ start-our-services ************************/
+.our-services-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6D5B6F;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/sunflower-background-home-purple.svg');
+    background-size: cover; /* ปรับให้รูปครอบคลุมพื้นที่ทั้งหมด */
+    background-position: center; /* จัดรูปให้อยู่ตรงกลาง */
+    background-repeat: no-repeat; /* ไม่ให้รูปซ้ำ */
+    position: relative;
+    z-index: 1;
+}
+.our-services-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.our-services {
+    align-items: center; /* จัดให้อยู่กึ่งกลางแนวตั้ง */
+    justify-content: center;
+    padding: 0; 
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.our-services h2 { 
+    margin: 50px 0 0 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.our-services h3 { 
+    margin: 0;
+    padding: 0;
+}
+
+.our-services-p { 
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+/************************ end-our-services ************************/
+/************************ start-in-shop-massage ************************/
+.in-shop-massage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 0 30px 0;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.in-shop-service-card {
+    overflow: hidden;
+    text-align: center;
+}
+
+/* กำหนดขนาดรูปภาพให้เท่ากัน */
+.in-shop-service-card img {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    height: 250px; /* กำหนดความสูงเท่ากัน */
+    object-fit: cover; /* ทำให้รูปภาพเต็มพื้นที่โดยไม่เสียอัตราส่วน */
+    display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.in-shop-service-card h6 {
+    margin: 10px 0 0 0;
+    padding: 0;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.in-shop-service-card-text {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.in-shop-service-card-text p {
+    color: #fff;
+    white-space: nowrap;
+    margin: 10px 0;
+    padding: 0;
+}
+/************************ end-in-shop-massage ************************/
+/************************ start-home-massage ************************/
+.home-massage {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    max-width: 1200px;
+    margin: 0;
+    padding: 0;
+}
+
+.home-massage-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 0 0 0;
+    padding: 0;
+}
+.handwriting-title {
+    font-size: 90px;
+    margin: 0;
+    padding: 0;
+    line-height: 6rem;
+}
+.home-massage-title {
+    margin: 0;
+    padding: 0;
+}
+.home-massage-title2 {
+    display: inline-block;
+}
+
+.home-massage-title2 h3 {
+    color: #333;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.home-massage-title p { 
+    color: #333;
+    width: 100%;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.heading-image-home-box {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+
+.heading-image-home-massage img {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%; /* กำหนดความสูงคงที่ */
+    object-fit: cover; /* ครอบเต็มพื้นที่โดยคงสัดส่วน */
+    object-position: center center; /* จัดตำแหน่งรูปภาพตรงกลาง */
+    margin: 0;
+    padding: 0;
+}
+
+.home-massage-koh-samui {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: #333747;    
+    /* กำหนดขนาดให้เท่ากับรูปภาพ */
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    width:  100%; /* กว้างเท่ารูปภาพ */
+    height:auto; /* ปรับความสูงตามรูปภาพ */
+    max-height: 450px;
+    aspect-ratio: 1 / 0.7; /* ทำให้ความสูงเท่ากับความกว้าง (Square) */
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+
+.home-massage-koh-samui h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ba9708;
+    margin: 0;
+    padding: 0;
+}
+
+.home-massage-koh-samui p {
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.starting-600-THB-botton {
+    display: inline-block;
+    justify-self: center;
+    align-self: center;
+}
+
+.starting-600-THB-botton h3 {
+    display: flex;
+    justify-self: center;
+    align-self: center;    
+    font-weight: bold;
+    color: #fff;
+    line-height: 3.5rem;
+    margin: 0;
+    padding: 0 20px;
+    background: #cc3c0e;
+    border: 2px solid #fff;
+    border-radius: 28px;
+}
+
+.home-massage-text{
+    margin: 30px 0 0 0;
+    padding: 0;
+    width: 100%;
+}
+
+.home-massage-text h3 {
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.home-massage-text p { 
+    color: #333;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+/************************ end-home-massage ************************/
+.our-therapist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 50px 0 0 0;
+    padding: 0;
+    background-image: url('../img/sunflower-background-home-purple.svg');
+    background-size: cover; /* ปรับให้รูปครอบคลุมพื้นที่ทั้งหมด */
+    background-position: center; /* จัดรูปให้อยู่ตรงกลาง */
+    background-repeat: no-repeat; /* ไม่ให้รูปซ้ำ */
+    position: relative;
+    color: #fff;
+    z-index: 1;
+}
+.our-therapist::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.our-therapist-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.our-therapist-title {
+    margin: 0;
+    padding: 0;
+}
+
+.our-therapist-title-box {
+    display: inline-block;
+}
+
+.our-therapist-title h2 {
+    text-transform: uppercase;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.our-therapist-title p { 
+    color: #fff;
+    width: 100%;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.our-therapist-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0 0 0;
+    padding: 0;
+    /* ปรับ gap ตามขนาดหน้าจอ */
+    row-gap: clamp(10px, 5vw, 40px); /* ค่อยๆ ลด row gap */
+    column-gap: clamp(10px, 4vw, 30px); /* ค่อยๆ ลด column gap */
+    color: #fff;
+}
+
+.our-therapist-photo {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.our-therapist-photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 0;
+}
+
+.our-therapist-photo h5 {
+    padding: 0;
+    margin: 10px 0 10px 0;
+}
+
+/* เมื่อหน้าจอเล็กลงเหลือ 768px ให้ grid เหลือ 2 columns */
+@media only screen and (max-width: 768px) {
+    .our-therapist-card {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    }
+
+    .our-therapist-photo img {
+        width: 170px;
+        height: 170px;
+    }
+}
+
+/* เมื่อหน้าจอเล็กลงเหลือ 480px ให้ grid เหลือ 1 column */
+@media only screen and (max-width: 480px) {
+    .our-therapist-card {
+        grid-template-columns: repeat(1, 1fr); /* 1 column */
+    }
+}
+
+/* จัดให้วิดีโออยู่ตรงกลางของหน้าจอ */
+.video-container {
+    width: 100%;
+    height: auto; /* ตั้งค่าให้เต็มหน้าจอ */
+    margin: 50px 0 50px 0;
+    padding: 0;
+}
+
+.facilities-parallax {
+    /* The image used */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/sunflower-spa-samui-parallax-background.jpg');
+    width: 100%;
+    /* Set a specific height */
+    min-height: 700px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+.parallax-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px; /* กำหนดความกว้างสูงสุด */
+    height: auto;
+    width: 100%; /* ให้ grid กว้างเต็มพื้นที่ */
+    padding: 0;
+    margin: 0;
+}
+.content-teams {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.content-teams-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    column-gap: 10px;
+    width: 100%;
+    margin: 20px;
+    padding: 0;
+    background: none;
+}
+
+.content-teams-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid#e4e4e4;
+    background: none;
+    width: 100%;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.content-teams-item img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.content-teams-item h2 {
+    font-size: 16px;
+    color: #333;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 0;
+    margin: 0;
+}
+.content-teams-item p {
+    font-size: 12px;
+    text-align: left;
+    color: #979797;
+}
+.content-teams-item a {
+    display: inline-block;
+    text-decoration: none;
+    color: #40aed7;
+    font-size: 12px;
+}
+.cr {
+    text-align: right;
+}
+/************************ #CONTENT-TEAM-HOVER ************************/
+.content-teams-item:hover {
+    border: 1px solid #40aed7;
+    background: #40aed7;
+}
+.content-teams-item:hover h2 {
+    font-size: 16px;
+    color: #fff;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 0;
+}
+.content-teams-item:hover p {
+    font-size: 12px;
+    text-align: left;
+    color: #fff;
+}
+.content-teams-item:hover a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+.cr {
+    text-align: right;
+}
+
+/* Google map */
+.map-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/sunflower-background-home.png');
+    background-size: cover; /* ปรับให้รูปครอบคลุมพื้นที่ทั้งหมด */
+    width: 100%;
+    height: auto;
+    background-position: center; /* จัดรูปให้อยู่ตรงกลาง */
+    background-repeat: no-repeat; /* ไม่ให้รูปซ้ำ */
+    text-align: center;
+    position: relative;
+    z-index: 1;
+
+}
+
+/* เพิ่มเลเยอร์สีทับบาง ๆ เพื่อความชัดของข้อความ */
+.map-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 15px;
+}
+
+.map-container {
+    position: relative;
+    z-index: 2;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0;
+    margin: 80px 0;
+}
+
+
+.map-grid {
+    display: grid;
+    grid-template-columns: 1fr 20px 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+
+.map-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+    overflow: hidden;
+    max-width: 500px;
+    width: 100%;
+    height: 100%;;
+    padding: 0;
+    margin: 0 auto;
+}
+.map-wrap:nth-child(1), .map-wrap:nth-child(3) {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.map-location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.map-location iframe {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.map-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.map-title h5 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    background: #fff;
+    color: #3a283c;
+    background-color: none;
+}
+
+/* WhatsApp Container */
+.floating-chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    overflow: hidden;
+    max-width: 1200px;
+    z-index: 1000;
+}
+
+/* Limit chat buttons inside 1200px width */
+@media (min-width: 1200px) {
+    .floating-chat-container {
+        right: calc((100% - 1200px) / 2 + 20px);
+    }
+}
+
+.chat-button, .social-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    margin: 5px;
+    padding: 0;
+    background-color: #fff; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.chat-button {
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.chat-button-xmark {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #cfcece;
+    position: absolute;
+    opacity: 0;
+    margin: 0;
+    transition: opacity 0.3s ease;
+}
+
+.chat-button i, .social-button i, .chat-button-xmark i {
+    font-size: 30px;
+    color: #494e65;
+    margin: auto; /* จัดให้อยู่ตรงกลางอัตโนมัติ */
+}
+
+.social-buttons {
+    display: none;
+    flex-direction: column;
+    justify-content: center;            
+}
+
+.social-button a {
+    text-decoration: none;
+}
+
+.chat-button.active .chat-button-xmark {
+    opacity: 1;
+}
+
+.chat-button:hover, .social-button:hover  {
+    transform: scale(1.1);
+}
+
+/* Start FAQ About Thai Massage & Spa */
+
+.faq_3 {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.faq_3 .container-block {
+    display: flex;
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    display: block;
+    padding: 10px 60px;
+}
+.faq {
+    margin: 0;
+    padding: 0;
+}
+
+.faq_3 .text-blk {
+    margin: 0;
+    line-height: 25px;
+}
+
+.faq_3 .responsive-container-block {
+    display: flex;
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+}
+
+.faq_3 .responsive-container-block .faqheading-bg {
+    display: flex;
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: flex-start;
+}
+
+.faq_3 .answer-box {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.faq_3 .faq.active .openimg {
+    transform: rotate(180deg);
+}
+
+.faq_3 .openimg {
+    transition: transform 0.3s ease-in;
+}
+
+.faq_3 .faq.active .answer-box {
+    max-height: 550px;
+}
+
+.faq_3 input:focus {
+    outline: none;
+}
+
+.faq_3 .responsive-container-block.container {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.faq_3 .responsive-container-block.faqheading-bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    max-height: 600px;
+    min-height: 300px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 80vh; /* Responsive height based on viewport */
+    @media (max-width: 800px) {
+        height: 50vh;
+    }
+    @media (max-width: 480px) {
+        height: 30vh;
+    }
+}
+
+.faq_3 .video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.faq_3 .video-bg video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.faq_3 .content-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.faq_3 .faq-heading-content {
+    margin-top: 150px;
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+}
+
+.faq_3 .text-blk.faq-heading {
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 800;
+    margin-bottom: 28px;
+}
+
+.faq_3 .text-blk.faq-subhead {
+    max-width: 650px;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 28px;
+}
+
+
+.faq_3 .responsive-container-block.dropdown-container {
+    background-color: white;
+    max-width: 850px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0 4px 20px 7px;
+    margin: -120px auto 100px;
+    z-index: 2;
+}
+
+
+.faq_3 .responsive-container-block.dropdown-container-wrapper {
+    padding: 0 30px;
+}
+
+.faq_3 .text-blk.faq-head2 {
+    text-align: center;
+    font-size: 42px;
+    line-height: 60px;
+    font-weight: 900;
+    margin: 60px 0 50px;
+    padding: 0 20px;
+}
+
+.faq_3 .faq {
+    border-bottom: 1px solid #c5c4c4;
+    margin-bottom: 10px;
+}
+
+.faq_3 .faq-question-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.faq_3 .text-blk.faq-questions {
+    color: #525252;
+    font-size: 20px;
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+.faq-arrow {
+    display: flex;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+
+}
+.faq_3 .text-blk.faq-answer {
+    padding-left: 20px;
+    color: #9c9c9c;
+    font-size: 19px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+@media (max-width: 1024px) {
+    .faq_3 .text-blk.faq-answer {
+        font-size: 18px;
+    }
+}
+@media (max-width: 800px) {
+    .faq_3 .responsive-container-block.faqheading-bg {
+        padding: 0 30px;
+    }
+
+    .faq_3 .faq-heading-content {
+        margin-top: 30px;
+    }
+    .faq_3 .text-blk.faq-heading {
+        font-size: 30px;
+        line-height: 40px;
+        white-space: nowrap;
+        margin: 20px 0;
+    }
+
+    .faq_3 .text-blk.faq-subhead {
+        font-size: 16px;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .faq_3 .text-blk.faq-head2 {
+        font-size: 38px;
+    }
+    .faq_3 .faq-question-container {
+        margin: 0;
+    }
+    .faq_3 .text-blk.faq-questions {
+        font-size: 20px;
+    }
+
+    .faq_3 .text-blk.faq-answer {
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+
+@media (max-width: 500px) {
+    .faq_3 .responsive-container-block.dropdown-container-wrapper {
+        padding: 0 20px;
+    }
+    .faq_3 .text-blk.faq-heading {
+        font-size: 20px !important;
+        font-weight: 700;
+        white-space: nowrap;
+    }
+
+    .faq_3 .text-blk.faq-subhead {
+        font-size: 12px !important;
+        line-height: 20px;
+    }
+
+    .faq_3 .text-blk.faq-heading {
+        font-size: 38px;
+    }
+
+    .faq_3 .faq-heading-content {
+        margin-top: 20px;
+    }
+
+    .faq_3 .text-blk.faq-head2 {
+        font-size: 30px;
+        line-height: 46px;
+        margin: 30px 0 40px;
+    }
+
+    .faq_3 .container-block {
+        padding: 10px 15px;
+    }
+
+
+    .faq_3 .text-blk.faq-questions {
+        font-size: 19px;
+    }
+    .faq_3 .text-blk.faq-answer {
+        font-size: 16px;
+        line-height: 22px;
+        padding-left: 0;
+    }
+
+    .faq_3 .responsive-container-block.dropdown-container {
+        margin: -100px 0 100px;
+    }
+}
+/* End FAQ About Thai Massage & Spa */
+
+
+/* ************** Footer Layout ************** */
+footer {
+    display: flex; /* ใช้ Flexbox จัดให้องค์ประกอบอยู่ตรงกลาง */
+    justify-content: center; /* จัดให้อยู่ตรงกลางตามแนวนอน */
+    align-items: center; /* จัดให้อยู่ตรงกลางตามแนวตั้ง */
+    width: 100%; /* ให้ footer กว้างเต็มพื้นที่หน้าจอ */
+    margin: 0;
+    padding: 0;
+    background: #333747 !important;
+}
+
+.footer-container {
+    display: flex; /* ใช้ Flexbox จัดให้องค์ประกอบอยู่ตรงกลาง */
+    justify-content: center; /* จัดให้อยู่ตรงกลางตามแนวนอน */
+    align-items: center; /* จัดให้อยู่ตรงกลางตามแนวตั้ง */
+    width: 100%; /* ให้ container ขยายเต็มพื้นที่ที่มี */
+    max-width: 1200px; /* กำหนดความกว้างสูงสุดของ container */
+    margin:30px 0; /* จัดให้อยู่กึ่งกลางของหน้าจอ */
+    padding: 0; /* กำหนดระยะห่างด้านบนและล่าง 30px */
+}
+
+.footer-grid {
+    display: grid; /* ใช้ Grid Layout จัดวางองค์ประกอบ */
+    grid-template-columns: 1fr 220px 150px; /* กำหนดจำนวนคอลัมน์ของ Grid */
+    width: 100%; /* ให้ footer-grid กว้างเต็มพื้นที่ */
+    padding: 0 30px; /* กำหนด Padding ซ้าย-ขวา */
+    margin: 0;
+    color: #fff; /* กำหนดสีตัวอักษรเป็นสีขาว */
+}
+
+/************************ #footer-items:nth-child(1) ************************/
+.footer-items:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0 40px 0 0; /* ลบ Padding */
+    width: auto;
+    height: auto;
+}
+.footer-items:nth-child(1) a {
+    display: flex;
+    width: 100%;;
+    height: fit-content;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    white-space: nowrap; /* ป้องกันการขึ้นบรรทัดใหม่ */
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    pointer-events: none;
+}
+
+.footer-items:nth-child(1) h5 {
+    display: flex;
+    width: 100%;;
+    height: fit-content;
+    text-align: left;
+    text-transform: uppercase; /* ใช้อักษรตัวพิมพ์ใหญ่ */
+    margin: 0; /* ลบ Margin */
+    padding: 0; /* ลบ Padding */
+}
+.footer-items:nth-child(1) a p {
+    padding: 0 0 15px 0;
+    margin: 0;
+}
+.footer-items:nth-child(1) p {
+    display: flex;
+    width: 100%;;
+    height: fit-content;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-items:nth-child(2), .footer-items:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0; /* ลบ Padding */
+    width: 100%;
+    height: auto;
+}
+
+.footer-items:nth-child(2) h5, .footer-items:nth-child(3) h5 {
+    display: flex;
+    text-align: left;
+    text-transform: uppercase; /* ใช้อักษรตัวพิมพ์ใหญ่ */
+    width: 100%;
+    margin: 0;
+    padding: 0; /* ลบ Padding */
+}
+
+/************************ #Footer Links Styling ************************/
+.footer-items-contact, .footer-items-follow {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-items: left;
+    width: 100%;
+    height: auto;
+    row-gap: 10px;
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+
+.footer-items-contact a, .footer-items-follow a {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    width: auto;
+    height: auto;
+}
+
+.footer-items-contact i, .footer-items-follow i {
+    padding: 2px 0 0 0;
+    margin: 0;
+    width: 25px;
+    height: auto;
+}
+.footer-items-contact p, .footer-items-follow p {
+    width: 100%;
+    height: auto;
+}
+.footer-items-contact a:hover, .footer-items-follow a:hover {
+    color: #e0b60c; /* เปลี่ยนสีข้อความเมื่อ hover เป็นสีทอง */
+}
+
+/************************ #COPYRIGHT ************************/
+/* ส่วนของ Copyright */
+.copyright {
+    display: flex; /* ใช้ flexbox จัดเนื้อหาให้อยู่ตรงกลาง */
+    justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
+    align-items: center; /* จัดให้อยู่กึ่งกลางแนวตั้ง */
+    width: 100%; /* ขยายความกว้างเต็มจอ */
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    background: #333747;
+}
+
+.copyright-container {
+    max-width: 1200px; /* ความกว้างเท่ากัน */
+    width: 100%;
+    height: 80%;
+    margin: 0 0 30px 0; /* จัดให้อยู่กึ่งกลาง */
+    padding: 0;
+    text-align: center; /* จัดข้อความให้อยู่กึ่งกลาง */
+}
+
+.copyright-grid {
+    margin: 0 30px; /* ลบ Margin */
+    padding: 0 30px; /* Padding ซ้าย-ขวา */
+    border-top: 1px solid #cfcece;
+}
+
+.copytext {
+    margin: 10px 0 0 0; /* ลบ margin รอบข้อความ */
+    padding: 0; /* ลบ padding รอบข้อความ */
+    color: #fff; /* กำหนดสีข้อความเป็นสีขาว */
+}
+
+@media only screen and (max-width: 900px){
+.map-wrap {
+    width: 350px;
+    height: 350px;
+    }
+}
+
+/* ************** Responsive Styles for Small Screens (ขนาดหน้าจอไม่เกิน 768px) ************** */
+@media only screen and (max-width: 800px){
+    p {
+        font-size: 13px; /* กำหนดให้ขนาดฟอนต์ไม่เล็กลงกว่า 14px */
+    } 
+    .content-heading h2 {
+        padding: 0 30px 0 30px;
+    }
+    .content-heading h4 {
+        padding: 0 30px 0 30px;
+    }
+    /************************ start-in-shop-massage ************************/
+    .in-shop-massage {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        gap: 10px;
+        padding: 0 30px 0 30px;
+    }
+    .in-shop-service-card {
+        min-width: 230px;
+    }
+    .in-shop-services-card img {
+        min-width: 230px; /* กำหนดความกว้างขั้นต่ำ */
+        max-height: 230px;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+    }
+    /************************ end-in-shop-massage ************************/
+    .map-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 30px;
+    }
+    .map-wrap {
+        max-width: 500px;
+        width: 100%;
+        max-height: 400px;
+    }
+    .map-wrap:nth-child(2) {
+        display: none;
+    }      
+    
+    footer {
+        display: flex;
+        justify-items: center; /* จัดให้อยู่ตรงกลางตามแนวนอน */
+        align-items: center;
+        height: auto;
+        width: 100%; /* ขยายเต็มพื้นที่ */
+    }
+    .footer-grid {
+        display: grid;
+        grid-template-columns: 1fr; /* เปลี่ยนให้มีเพียงคอลัมน์เดียว */
+        justify-items: center; /* จัดให้อยู่ตรงกลางตามแนวนอน */
+        align-items: center;
+        gap: 0;
+        padding: 0 50px;
+        margin: 0 auto; /* จัดให้อยู่กึ่งกลาง */
+    }
+    .footer-items:nth-child(1), .footer-items:nth-child(2), .footer-items:nth-child(3) {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .footer-items:nth-child(2) h5, .footer-items:nth-child(3) h5 {
+        padding: 0;
+        margin: 20px 0 0 0;
+    }
+    .footer-items-contact, .footer-items-follow {
+        margin: 10px 0 0 0;
+    }
+    .footer-items-contact i, .footer-items-follow i {
+        font-size: 14px;
+        padding: 0;
+        margin: 2px 0 0 0;
+        width: 25px;
+        height: auto;
+    }
+ 
+}
+/* ************** Responsive Styles for Small Screens (ขนาดหน้าจอไม่เกิน 490px) ************** */
+@media only screen and (max-width: 480px){
+    p {
+        font-size: 13px; /* กำหนดให้ขนาดฟอนต์ไม่เล็กลงกว่า 14px */
+    }
+    /************************ start-in-shop-massage ************************/
+    .in-shop-massage {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+    .in-shop-service-card-text p {
+        white-space: nowrap;
+    }
+    .starting-600-THB-botton h3 {
+        padding: 0 10px;
+        line-height: 2rem;
+        border: 1px solid #fff;
+    }
+    .map-wrap {
+        min-width: 300px;
+        min-height: 250px;
+    } 
+    /************************ start-in-shop-massage ************************/
+    
+    .footer-grid {
+        padding: 0 30px;
+    }
+    
+}
+
