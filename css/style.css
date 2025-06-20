@@ -1653,6 +1653,11 @@ p {
     background-color: none;
 }
 
+.map-title h5 a {
+    color: inherit; /* ใช้สีตัวอักษรเดียวกับ parent (h5) */
+    text-decoration: none; /* ลบการขีดเส้นใต้ */
+}
+
 /* WhatsApp Container */
 .floating-chat-container {
     position: fixed;
