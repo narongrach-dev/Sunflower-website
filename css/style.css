@@ -1657,6 +1657,9 @@ p {
     color: inherit; /* ใช้สีตัวอักษรเดียวกับ parent (h5) */
     text-decoration: none; /* ลบการขีดเส้นใต้ */
 }
+.map-title a:hover {
+    color: #e0b60c;
+}
 
 /* WhatsApp Container */
 .floating-chat-container {
