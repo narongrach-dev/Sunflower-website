@@ -1742,6 +1742,22 @@ p {
     transform: scale(1.1);
 }
 
+.social-button.whatsapp:hover i {
+    color: #857802;
+}
+
+.social-button.line:hover i {
+    color: #857802;
+}
+
+.social-button.whatsapp:hover {
+    background-color: #ffffff;
+}
+
+.social-button.line:hover {
+    background-color: #ffffff;
+}
+
 /* Start FAQ About Thai Massage & Spa */
 
 .faq_3 {
