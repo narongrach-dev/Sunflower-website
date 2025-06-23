@@ -1653,14 +1653,6 @@ p {
     background-color: none;
 }
 
-.map-title h5 a {
-    color: inherit; /* ใช้สีตัวอักษรเดียวกับ parent (h5) */
-    text-decoration: none; /* ลบการขีดเส้นใต้ */
-}
-.map-title a:hover {
-    color: #e0b60c;
-}
-
 /* WhatsApp Container */
 .floating-chat-container {
     position: fixed;
@@ -1740,22 +1732,6 @@ p {
 
 .chat-button:hover, .social-button:hover  {
     transform: scale(1.1);
-}
-
-.social-button.whatsapp:hover i {
-    color: #857802;
-}
-
-.social-button.line:hover i {
-    color: #857802;
-}
-
-.social-button.whatsapp:hover {
-    background-color: #ffffff;
-}
-
-.social-button.line:hover {
-    background-color: #ffffff;
 }
 
 /* Start FAQ About Thai Massage & Spa */
