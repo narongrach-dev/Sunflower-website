@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-
+/* font-type */
 .playfair-display-regular {
     font-family: "Playfair Display", serif;
     font-weight: 400;
@@ -204,7 +204,7 @@
     font-weight: 400;
     font-style: normal;
 }
-/* Light */
+
 .shantell-sans-light {
     font-family: "Shantell Sans", serif;
     font-weight: 300;
@@ -224,7 +224,6 @@
         "SPAC" 2;
 }
 
-/* Regular */
 .shantell-sans-regular {
     font-family: "Shantell Sans", serif;
     font-weight: 400;
@@ -244,7 +243,6 @@
         "SPAC" 3;
 }
 
-/* Medium */
 .shantell-sans-medium {
     font-family: "Shantell Sans", serif;
     font-weight: 500;
@@ -259,12 +257,11 @@
     font-weight: 500;
     font-style: italic;
     font-variation-settings:
-        "BNCE" 15,
+        "BNCE" 15
         "INFM" 5,
         "SPAC" 4;
 }
 
-/* SemiBold */
 .shantell-sans-semibold {
     font-family: "Shantell Sans", serif;
     font-weight: 600;
@@ -284,7 +281,6 @@
         "SPAC" 5;
 }
 
-/* Bold */
 .shantell-sans-bold {
     font-family: "Shantell Sans", serif;
     font-weight: 700;
@@ -304,7 +300,6 @@
         "SPAC" 6;
 }
 
-/* ExtraBold */
 .shantell-sans-extrabold {
     font-family: "Shantell Sans", serif;
     font-weight: 800;
@@ -334,8 +329,7 @@
     font-style: normal;
   } 
 
-
-
+/* font-size */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
@@ -395,7 +389,7 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-/* start-first-navbar */
+/* first-navbar */
 .first-navbar {
     width: 100%;
     background: #494e65;
@@ -417,9 +411,11 @@ body {
     align-items: center;
     justify-content: center;
     justify-content: space-between;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 30px;
+    box-sizing: border-box;
 }
 
 .nav-menu {
@@ -471,23 +467,6 @@ p {
     color: #e0b60c;
 }
 
-@media (max-width: 800px) {
-    p {
-        font-size: 12px !important;
-    }
-    .nav-menu i {
-        font-size: 12px !important;
-    }
-}
-
-@media (max-width: 480px) {
-    p {
-        font-size: 10px !important;
-    }
-    .nav-menu i {
-        font-size: 10px !important;
-    }
-}
 /* end-first-navbar */
 
 /* start-second-navbar */
@@ -527,8 +506,9 @@ p {
     justify-content: center;
     width: 100%;
     max-width: 1200px;
-    margin: 0;
+    margin: 0 auto;
     padding: 15px 30px;
+    box-sizing: border-box;    
 }
 
 /* navbar-version1 */
@@ -679,77 +659,6 @@ p {
     border-bottom: 2px solid #fff;
 }
 /* end-toggle-button */
-
-@media (min-width: 800px) and (max-width: 900px) {
-    .navbar-version1 {
-        grid-template-columns: 1fr minmax(150px, 1fr) 1fr;
-    }
-}
-
-@media (max-width: 800px) {
-    .nav-container2, .navbar-version1 {
-        display: grid;
-        grid-template-columns: 1fr;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-
-    .nav-toggle, .second-navbar.sticky .nav-toggle {
-        display: block;
-        font-size: 30px;
-        cursor: pointer;
-        position: absolute;
-        left: 20px;
-        top: 20px;
-        color: #fff;
-    }
-
-    .second-navbar.sticky .nav-toggle {
-        display: block;
-        font-size: 30px;
-        cursor: pointer;
-        position: absolute;
-        left: 20px;
-        top: 20px;
-        color: #3a283c;
-    }
-
-    .logo {
-        margin: 10px 0;
-    }
-
-    .menu-left, .menu-right {
-        display: none;
-    }
-
-    .navbar-version2 {
-        display: none;
-    }
-
-    .navbar-version2.active {
-        display: flex;
-        flex-wrap: wrap;  /* ให้รายการเมนูขึ้นบรรทัดใหม่เมื่อพื้นที่ไม่พอ */
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        font-size: 12px;
-        gap: 0;
-        text-align: center;
-        padding: 0 0 10px 0;
-        margin: 0;
-    }
-
-    .second-navbar.sticky .navbar-version2 ul li a {
-        color: #3a283c;
-    }
-
-    .second-navbar.sticky .navbar-version2 li:hover {
-        border-bottom: 1px solid #e0b60c;
-    }
-}
 /* end-second-navbar */
 
 /* ************** CONTENT ************** */
@@ -839,35 +748,6 @@ p {
     to { width: 100%; }
 }
 
-@media (max-width: 768px) {
-    .typing-text {
-        display: none; /* ซ่อน .typewriter.animate เมื่อหน้าจอเล็ก */
-    }
-
-    .text-overlay {
-        margin: 300px 0 0 0;
-        padding: 0;
-    }
-
-    .typing-text2 {
-        display: inline-block; /* แสดง .typewriter.animate2 เมื่อหน้าจอเล็ก */
-        width: fit-content;
-        color: #fff;
-        padding: 0;
-        margin: 0;
-        overflow: hidden;
-        white-space: nowrap;
-    }
-
-    .typewriter.animate2 {
-        animation: typing 1.5s steps(30, end) forwards;
-    }
-
-    .typewriter.animate3 {
-        animation: typing 1.5s steps(30, end) 1.5s forwards; /* เริ่มหลังจากบรรทัดแรกเสร็จ */
-    }
-}
-
 .text-overlay h4 {
     padding: 30px 30px;
 }
@@ -911,6 +791,10 @@ p {
     margin: 30px;
     background: none;
 }
+
+.container2 {
+    background: none;
+}
 /************************ START CONTENT-HEADING ************************/
 .heading-box {
     display: flex;
@@ -926,6 +810,7 @@ p {
     position: relative;
     z-index: 1;
 }
+
 
 /* เพิ่มเลเยอร์สีทับบาง ๆ เพื่อความชัดของข้อความ */
 .heading-box::before {
@@ -1014,14 +899,6 @@ p {
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     pointer-events: none; /* ป้องกันการคลิกโดน overlay */
 }
-
-/* สำหรับจอขนาดเล็ก (Mobile) จะลดความสูงให้เล็กลง */
-@media (max-width: 480px) {
-    .heading-image {
-        height: 300px; /* ลดความสูงสำหรับมือถือ */
-    }
-}
-
 
 .content-heading-about-us {
     margin: 0 0 10px 0;
@@ -1124,6 +1001,7 @@ p {
     padding: 0;
     position: relative;
     z-index: 2;
+    box-sizing: border-box;
 }
 
 .in-shop-service-card {
@@ -1173,8 +1051,9 @@ p {
     align-items: center;
     gap: 0;
     max-width: 1200px;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 30px;
+    box-sizing: border-box;
 }
 
 .home-massage-box {
@@ -1399,25 +1278,6 @@ p {
     margin: 10px 0 10px 0;
 }
 
-/* เมื่อหน้าจอเล็กลงเหลือ 768px ให้ grid เหลือ 2 columns */
-@media only screen and (max-width: 768px) {
-    .our-therapist-card {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns */
-    }
-
-    .our-therapist-photo img {
-        width: 170px;
-        height: 170px;
-    }
-}
-
-/* เมื่อหน้าจอเล็กลงเหลือ 480px ให้ grid เหลือ 1 column */
-@media only screen and (max-width: 480px) {
-    .our-therapist-card {
-        grid-template-columns: repeat(1, 1fr); /* 1 column */
-    }
-}
-
 /* จัดให้วิดีโออยู่ตรงกลางของหน้าจอ */
 .video-container {
     width: 100%;
@@ -1452,8 +1312,9 @@ p {
     max-width: 1200px; /* กำหนดความกว้างสูงสุด */
     height: auto;
     width: 100%; /* ให้ grid กว้างเต็มพื้นที่ */
-    padding: 0;
     margin: 0;
+    padding: 0 30px;
+    box-sizing: border-box;
 }
 .content-teams {
     display: flex;
@@ -1581,10 +1442,10 @@ p {
 .map-container {
     width: 100%;
     max-width: 1200px;
-    padding: 0;
     margin: 80px 0;
+    padding: 0 30px;
+    box-sizing: border-box;
 }
-
 
 .map-grid {
     display: grid;
@@ -1653,6 +1514,14 @@ p {
     background-color: none;
 }
 
+.map-title h5 a {
+    color: inherit; /* ใช้สีตัวอักษรเดียวกับ parent (h5) */
+    text-decoration: none; /* ลบการขีดเส้นใต้ */
+}
+.map-title a:hover {
+    color: #e0b60c;
+}
+
 /* WhatsApp Container */
 .floating-chat-container {
     position: fixed;
@@ -1664,13 +1533,7 @@ p {
     overflow: hidden;
     max-width: 1200px;
     z-index: 1000;
-}
-
-/* Limit chat buttons inside 1200px width */
-@media (min-width: 1200px) {
-    .floating-chat-container {
-        right: calc((100% - 1200px) / 2 + 20px);
-    }
+    box-sizing: border-box;
 }
 
 .chat-button, .social-button {
@@ -1734,15 +1597,77 @@ p {
     transform: scale(1.1);
 }
 
-/* Start FAQ About Thai Massage & Spa */
+.social-button.whatsapp:hover i {
+    color: #857802;
+}
 
+.social-button.line:hover i {
+    color: #857802;
+}
+
+.social-button.whatsapp:hover {
+    background-color: #ffffff;
+}
+
+.social-button.line:hover {
+    background-color: #ffffff;
+}
+
+/* Start FAQ About Thai Massage & Spa */
+/* ลบข้อจำกัดของ container ถ้าใช้ framework ที่มี max-width */
+.fullwidth-container {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+
+.responsive-container-block.faqheading-bg {
+    max-width: 100vw;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+/* วิดีโอพื้นหลัง */
+.video-bg {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    max-height: 650px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/* ตัว video */
+.video-bg video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100vw;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+}
+
+
+/* FAQ Section Styles */
 .faq_3 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     margin: 0;
     padding: 0;
+    border: 1px solid #e90202;
 }
-
 
 .faq_3 .container-block {
     display: flex;
@@ -1771,6 +1696,7 @@ p {
     margin: 0 auto;
     padding: 0;
     justify-content: center;
+    border: 1px solid #e90202;
 }
 
 .faq_3 .responsive-container-block .faqheading-bg {
@@ -1940,105 +1866,13 @@ p {
     line-height: 28px;
     margin-bottom: 20px;
 }
-@media (max-width: 1024px) {
-    .faq_3 .text-blk.faq-answer {
-        font-size: 18px;
-    }
-}
-@media (max-width: 800px) {
-    .faq_3 .responsive-container-block.faqheading-bg {
-        padding: 0 30px;
-    }
-
-    .faq_3 .faq-heading-content {
-        margin-top: 30px;
-    }
-    .faq_3 .text-blk.faq-heading {
-        font-size: 30px;
-        line-height: 40px;
-        white-space: nowrap;
-        margin: 20px 0;
-    }
-
-    .faq_3 .text-blk.faq-subhead {
-        font-size: 16px;
-        margin-top: 0;
-    }
-}
-
-@media (max-width: 768px) {
-
-    .faq_3 .text-blk.faq-head2 {
-        font-size: 38px;
-    }
-    .faq_3 .faq-question-container {
-        margin: 0;
-    }
-    .faq_3 .text-blk.faq-questions {
-        font-size: 20px;
-    }
-
-    .faq_3 .text-blk.faq-answer {
-        font-size: 16px;
-        line-height: 23px;
-    }
-}
-
-@media (max-width: 500px) {
-    .faq_3 .responsive-container-block.dropdown-container-wrapper {
-        padding: 0 20px;
-    }
-    .faq_3 .text-blk.faq-heading {
-        font-size: 20px !important;
-        font-weight: 700;
-        white-space: nowrap;
-    }
-
-    .faq_3 .text-blk.faq-subhead {
-        font-size: 12px !important;
-        line-height: 20px;
-    }
-
-    .faq_3 .text-blk.faq-heading {
-        font-size: 38px;
-    }
-
-    .faq_3 .faq-heading-content {
-        margin-top: 20px;
-    }
-
-    .faq_3 .text-blk.faq-head2 {
-        font-size: 30px;
-        line-height: 46px;
-        margin: 30px 0 40px;
-    }
-
-    .faq_3 .container-block {
-        padding: 10px 15px;
-    }
-
-
-    .faq_3 .text-blk.faq-questions {
-        font-size: 19px;
-    }
-    .faq_3 .text-blk.faq-answer {
-        font-size: 16px;
-        line-height: 22px;
-        padding-left: 0;
-    }
-
-    .faq_3 .responsive-container-block.dropdown-container {
-        margin: -100px 0 100px;
-    }
-}
 /* End FAQ About Thai Massage & Spa */
-
 
 /* ************** Footer Layout ************** */
 footer {
     display: flex; /* ใช้ Flexbox จัดให้องค์ประกอบอยู่ตรงกลาง */
-    justify-content: center; /* จัดให้อยู่ตรงกลางตามแนวนอน */
-    align-items: center; /* จัดให้อยู่ตรงกลางตามแนวตั้ง */
+    justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
+    align-items: center; /* จัดให้อยู่กึ่งกลางตามแนวตั้ง */
     width: 100%; /* ให้ footer กว้างเต็มพื้นที่หน้าจอ */
     margin: 0;
     padding: 0;
@@ -2047,12 +1881,13 @@ footer {
 
 .footer-container {
     display: flex; /* ใช้ Flexbox จัดให้องค์ประกอบอยู่ตรงกลาง */
-    justify-content: center; /* จัดให้อยู่ตรงกลางตามแนวนอน */
-    align-items: center; /* จัดให้อยู่ตรงกลางตามแนวตั้ง */
+    justify-content: center; /* จัดให้อยู่กึ่งกลางตามแนวนอน */
+    align-items: center; /* จัดให้อยู่กึ่งกลางตามแนวตั้ง */
     width: 100%; /* ให้ container ขยายเต็มพื้นที่ที่มี */
     max-width: 1200px; /* กำหนดความกว้างสูงสุดของ container */
     margin:30px 0; /* จัดให้อยู่กึ่งกลางของหน้าจอ */
     padding: 0; /* กำหนดระยะห่างด้านบนและล่าง 30px */
+    box-sizing: border-box;
 }
 
 .footer-grid {
@@ -2167,7 +2002,7 @@ footer {
 .copyright {
     display: flex; /* ใช้ flexbox จัดเนื้อหาให้อยู่ตรงกลาง */
     justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
-    align-items: center; /* จัดให้อยู่กึ่งกลางแนวตั้ง */
+    align-items: center; /* จัดให้อยู่กึ่งกลางตามแนวตั้ง */
     width: 100%; /* ขยายความกว้างเต็มจอ */
     height: 50px;
     padding: 0;
@@ -2195,43 +2030,143 @@ footer {
     padding: 0; /* ลบ padding รอบข้อความ */
     color: #fff; /* กำหนดสีข้อความเป็นสีขาว */
 }
+/* ================================================= */
+/* Base Styles (Laptop First - for screens >= 992px generally) */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+/* ================================================= */
 
-@media only screen and (max-width: 900px){
-.map-wrap {
-    width: 350px;
-    height: 350px;
+/* Laptops / Desktops (800px to 900px) */
+@media (min-width: 800px) and (max-width: 900px) {
+    .navbar-version1 {
+        grid-template-columns: 1fr minmax(150px, 1fr) 1fr;
     }
 }
 
-/* ************** Responsive Styles for Small Screens (ขนาดหน้าจอไม่เกิน 768px) ************** */
-@media only screen and (max-width: 800px){
+/* General Desktop / Laptop (<= 1024px) */
+@media (max-width: 1024px) {
+    .faq_3 .text-blk.faq-answer {
+        font-size: 18px;
+    }
+}
+
+/* Laptops / Desktops (medium size, <= 991px) */
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 960px;
+        padding: 25px;
+    }
+}
+
+/* Tablets (landscape, <= 900px) */
+@media (max-width: 900px) {
+    .map-wrap {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+
+/* Tablets (portrait) / Smaller Laptops (<= 800px) */
+@media (max-width: 800px) {
     p {
-        font-size: 13px; /* กำหนดให้ขนาดฟอนต์ไม่เล็กลงกว่า 14px */
+        font-size: 12px !important;
+    }
+    .nav-menu i {
+        font-size: 12px !important;
+    }
+
+    .nav-container2, .navbar-version1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-toggle, .second-navbar.sticky .nav-toggle {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        color: #fff;
+    }
+
+    .second-navbar.sticky .nav-toggle {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        color: #3a283c;
+    }
+
+    .logo {
+        margin: 10px 0;
+    }
+
+    .menu-left, .menu-right {
+        display: none;
+    }
+
+    .navbar-version2 {
+        display: none;
+    }
+
+    .navbar-version2.active {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        gap: 0;
+        text-align: center;
+        padding: 0 0 10px 0;
+        margin: 0;
+    }
+
+    .second-navbar.sticky .navbar-version2 ul li a {
+        color: #3a283c;
+    }
+
+    .second-navbar.sticky .navbar-version2 li:hover {
+        border-bottom: 1px solid #e0b60c;
+    }
+
+    /* Styles for Small Screens (<= 800px) */
+    p {
+        font-size: 13px; /* Note: Likely overridden by 12px !important above */
     } 
-    .content-heading h2 {
-        padding: 0 30px 0 30px;
+    .content-heading h2, .content-heading h4 {
+        padding: 0 30px;
     }
-    .content-heading h4 {
-        padding: 0 30px 0 30px;
-    }
-    /************************ start-in-shop-massage ************************/
     .in-shop-massage {
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         gap: 10px;
-        padding: 0 30px 0 30px;
+        padding: 0 30px;
     }
     .in-shop-service-card {
         min-width: 230px;
     }
     .in-shop-services-card img {
-        min-width: 230px; /* กำหนดความกว้างขั้นต่ำ */
+        min-width: 230px;
         max-height: 230px;
         object-fit: cover;
         display: block;
-        margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+        margin: 0 auto;
     }
-    /************************ end-in-shop-massage ************************/
     .map-grid {
         display: flex;
         flex-direction: column;
@@ -2250,19 +2185,19 @@ footer {
     
     footer {
         display: flex;
-        justify-items: center; /* จัดให้อยู่ตรงกลางตามแนวนอน */
+        justify-items: center;
         align-items: center;
         height: auto;
-        width: 100%; /* ขยายเต็มพื้นที่ */
+        width: 100%;
     }
     .footer-grid {
         display: grid;
-        grid-template-columns: 1fr; /* เปลี่ยนให้มีเพียงคอลัมน์เดียว */
-        justify-items: center; /* จัดให้อยู่ตรงกลางตามแนวนอน */
+        grid-template-columns: 1fr;
+        justify-items: center;
         align-items: center;
         gap: 0;
         padding: 0 50px;
-        margin: 0 auto; /* จัดให้อยู่กึ่งกลาง */
+        margin: 0 auto;
     }
     .footer-items:nth-child(1), .footer-items:nth-child(2), .footer-items:nth-child(3) {
         display: grid;
@@ -2284,14 +2219,162 @@ footer {
         width: 25px;
         height: auto;
     }
- 
-}
-/* ************** Responsive Styles for Small Screens (ขนาดหน้าจอไม่เกิน 490px) ************** */
-@media only screen and (max-width: 480px){
-    p {
-        font-size: 13px; /* กำหนดให้ขนาดฟอนต์ไม่เล็กลงกว่า 14px */
+
+    .faq_3 .responsive-container-block.faqheading-bg {
+        padding: 0 30px;
     }
-    /************************ start-in-shop-massage ************************/
+
+    .faq_3 .faq-heading-content {
+        margin-top: 30px;
+    }
+    .faq_3 .text-blk.faq-heading {
+        font-size: 30px;
+        line-height: 40px;
+        white-space: nowrap;
+        margin: 20px 0;
+    }
+
+    .faq_3 .text-blk.faq-subhead {
+        font-size: 16px;
+        margin-top: 0;
+    }
+}
+
+/* Tablets (portrait) - Max-width: 768px */
+@media (max-width: 768px) {
+    .container {
+        max-width: 720px;
+        padding: 20px;
+    }
+
+    .typing-text {
+        display: none;
+    }
+
+    .text-overlay {
+        margin: 300px 0 0 0;
+        padding: 0;
+    }
+
+    .typing-text2 {
+        display: inline-block;
+        width: fit-content;
+        color: #fff;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .typewriter.animate2 {
+        animation: typing 1.5s steps(30, end) forwards;
+    }
+
+    .typewriter.animate3 {
+        animation: typing 1.5s steps(30, end) 1.5s forwards;
+    }
+
+    .faq_3 .text-blk.faq-head2 {
+        font-size: 38px;
+    }
+    .faq_3 .faq-question-container {
+        margin: 0;
+    }
+    .faq_3 .text-blk.faq-questions {
+        font-size: 20px;
+    }
+
+    .faq_3 .text-blk.faq-answer {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .our-therapist-card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .our-therapist-photo img {
+        width: 170px;
+        height: 170px;
+    }
+}
+
+/* Mobile Devices (landscape and portrait, <= 575px) */
+@media screen and (max-width: 575px) {
+    .container {
+        max-width: 100%;
+        padding: 15px;
+    }
+}
+
+/* Mobile Devices (smaller than 500px) */
+@media (max-width: 500px) {
+    .faq_3 .responsive-container-block.dropdown-container-wrapper {
+        padding: 0 20px;
+    }
+    .faq_3 .text-blk.faq-heading {
+        font-size: 20px !important;
+        font-weight: 700;
+        white-space: nowrap;
+    }
+
+    .faq_3 .text-blk.faq-subhead {
+        font-size: 12px !important;
+        line-height: 20px;
+    }
+
+    .faq_3 .text-blk.faq-heading {
+        font-size: 38px; /* Conflicts with 20px !important above */
+    }
+
+    .faq_3 .faq-heading-content {
+        margin-top: 20px;
+    }
+
+    .faq_3 .text-blk.faq-head2 {
+        font-size: 30px;
+        line-height: 46px;
+        margin: 30px 0 40px;
+    }
+
+    .faq_3 .container-block {
+        padding: 10px 15px;
+    }
+
+    .faq_3 .text-blk.faq-questions {
+        font-size: 19px;
+    }
+    .faq_3 .text-blk.faq-answer {
+        font-size: 16px;
+        line-height: 22px;
+        padding-left: 0;
+    }
+
+    .faq_3 .responsive-container-block.dropdown-container {
+        margin: -100px 0 100px;
+    }
+}
+
+/* Extra Small Mobile Devices (<= 480px) */
+@media (max-width: 480px) {
+    p {
+        font-size: 10px !important;
+    }
+    .nav-menu i {
+        font-size: 10px !important;
+    }
+
+    .heading-image {
+        height: 300px;
+    }
+
+    .our-therapist-card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    p {
+        font-size: 13px; /* Likely ineffective due to !important 10px rule above */
+    }
     .in-shop-massage {
         grid-template-columns: 1fr;
         justify-content: center;
@@ -2307,12 +2390,25 @@ footer {
     .map-wrap {
         min-width: 300px;
         min-height: 250px;
-    } 
-    /************************ start-in-shop-massage ************************/
+    }    
     
     .footer-grid {
         padding: 0 30px;
     }
-    
 }
 
+
+/* Optional: Very Small Mobile Devices (<= 374px) */
+@media screen and (max-width: 374px) {
+    /* .container {
+        padding: 10px;
+    } */
+}
+
+
+/* Laptop / Desktop (specific range) - Min-width: 1200px */
+@media (min-width: 1200px) {
+    .floating-chat-container {
+        right: calc((100% - 1200px) / 2 + 20px);
+    }
+}
